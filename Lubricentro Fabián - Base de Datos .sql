@@ -1,8 +1,8 @@
 mysql -u root
 
-drop database if exists Lubricentro;
-create database Lubricentro;
-use Lubricentro;
+drop database if exists visualB;
+create database visualB;
+use visualB;
 
 create table Clientes(
 id_cliente int  primary key auto_increment,
